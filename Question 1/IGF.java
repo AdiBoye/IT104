@@ -82,7 +82,8 @@ public class IGF{
                 tax = 0.085 * money;
             }
         } else {
-            //quit the program
+            System.out.println("Profit value error ");
+            System.exit(0);
         }
 
         double refuseTax = 0.02 * tax;

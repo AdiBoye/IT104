@@ -1,0 +1,16 @@
+4a. Conditional flow control (if statement) because we only need to compare
+two values to each other 
+4b if (quantity of crops per squared feet of fertilizerA > quantity of crops per squared feet of fertilizerB) {
+    best_fertilizer = fertilizerA;
+} else {
+    best_fertilizer = fertilizerB;
+
+}
+
+4c. public String bestFertilizer(String fertilizerA, String fertilizerB, int yieldA, int yieldB) {
+    if (yieldA > yieldB) {
+        return fertilizerA;
+    } else {
+        return fertilizerB;
+    }
+}

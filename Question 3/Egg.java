@@ -45,7 +45,7 @@ public class Egg {
         }
 
         // displaying amount of crates sold
-        System.out.println("Amount of money sold is GHc" + (cratesBought * 20));
+        System.out.println("Amount of crates sold is GHc " + (cratesBought * 20));
 
     }
 }

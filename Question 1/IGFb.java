@@ -21,7 +21,7 @@ public class IGFb{
             } else if (profit < 10001) {
                 category = "MEDUIM";
             } else {
-                category = "Large";
+                category = "LARGE";
             }
 
         //calculating the tax of the company

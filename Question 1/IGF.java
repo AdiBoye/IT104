@@ -22,7 +22,7 @@ public class IGF{
             } else if (value < 10001) {
                 category = "MEDUIM";
             } else {
-                category = "Large";
+                category = "LARGE";
             }
     }
     
